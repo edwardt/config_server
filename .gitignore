@@ -1,5 +1,13 @@
+*~
+*.*~
+*.log
+*.dump
 .eunit
 deps
 *.o
 *.beam
 *.plt
+rel/ejabberd_auth_spark/*
+rel/spark_modules/*
+re/temp/*
+/*temp/*

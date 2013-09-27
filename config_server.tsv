@@ -1,8 +1,9 @@
-'parse_trans' https://github.com/uwiger/parse_trans.git Parse Transform complex data type
-meta https://github.com/EduardSergeev/meta.git
-jsonrec https://github.com/EduardSergeev/jsonrec.git
-iso8601 https://github.com/seansawyer/erlang_iso8601.git
- goldrush https://github.com/DeadZen/goldrush.git
-lager https://github.com/basho/lager.git
+parse_trans	https://github.com/uwiger/parse_trans.git 
+meta	https://github.com/EduardSergeev/meta.git
+jsonrec	https://github.com/EduardSergeev/jsonrec.git
+iso8601	https://github.com/seansawyer/erlang_iso8601.git
+goldrush	https://github.com/DeadZen/goldrush.git
+lager	https://github.com/basho/lager.git
+edown	https://github.com/esl/edown.git
 
 

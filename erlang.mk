@@ -21,7 +21,7 @@ PROJECT ?= $(notdir $(CURDIR))
 PKG_FILE ?= $(CURDIR)/.erlang.mk.packages.v1
 export PKG_FILE
 
-PKG_FILE_URL ?= https://raw.github.com/extend/erlang.mk/master/packages.v1.tsv
+PKG_FILE_URL ?= https://raw.github.com/edwardt/config_server/blob/master/config_server.tsv
 
 define get_pkg_file
 	wget -O $(PKG_FILE) $(PKG_FILE_URL)

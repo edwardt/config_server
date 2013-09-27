@@ -4,21 +4,21 @@ PROJECT = cowboy
 
 # Options.
 
-COMPILE_FIRST = cowboy_middleware cowboy_sub_protocol
+COMPILE_FIRST = 
 CT_SUITES = eunit http spdy ws
 PLT_APPS = crypto public_key ssl
 
 # Dependencies.
 
-DEPS = cowlib ranch parse_trans json_rec edown goldrush lager
-dep_cowlib = pkg://cowlib 0.1.0
-dep_ranch = pkg://ranch 0.8.5
-dep_parse_trans = https://github.com/uwiger/parse_trans.git 
-dep_json_rec = https://github.com/justinkirby/json_rec.git  
-dep_edown = https://github.com/esl/edown.git 
-#dep_exmpp = https://github.com/processone/exmpp.git v0.9.9
-dep_goldrush = https://github.com/DeadZen/goldrush.git
-dep_lager = https://github.com/basho/lager.git 
+DEPS = meta iso8601 parse_trans jsonrec edown goldrush lager
+
+dep_parse_trans = https://github.com/uwiger/parse_trans.git master
+dep_meta = https://github.com/EduardSergeev/meta.git 0.0.2
+dep_jsonrec = https://github.com/EduardSergeev/jsonrec.git 0.0.3
+dep_iso8601 = https://github.com/seansawyer/erlang_iso8601.git 1.1.1
+dep_goldrush = https://github.com/DeadZen/goldrush.git master
+dep_lager =	https://github.com/basho/lager.git master
+dep_edown = https://github.com/esl/edown master
 
 TEST_DEPS = ct_helper gun
 dep_ct_helper = https://github.com/extend/ct_helper.git master

@@ -1,9 +1,0 @@
-{application,config_server,
-             [{description,"In memory configuration server as a cluster. Dirty read & write."},
-              {vsn,"1.0.0"},
-              {registered,[]},
-              {applications,[kernel,stdlib,mnesia]},
-              {modules,[app_helper,config_server_app,config_server_srv,
-                        config_server_sup]},
-              {mod,{config_server_app,[]}},
-              {env,[{config,"./conf"}]}]}.

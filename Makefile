@@ -1,6 +1,6 @@
 # See LICENSE for licensing information.
 
-PROJECT = cowboy
+PROJECT = config_server
 
 # Options.
 
